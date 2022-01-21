@@ -22791,7 +22791,7 @@ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _movieCard = require("../movie-card/movie-card");
 var _movieView = require("../movie-view/movie-view");
-let imgPath = './img/';
+let imgPath = 'https://picsum.photos/seed/';
 class MainView extends _reactDefault.default.Component {
     constructor(){
         super();
@@ -22801,19 +22801,19 @@ class MainView extends _reactDefault.default.Component {
                     _id: 1,
                     Title: 'The Godfather',
                     Description: 'The Godfather follows Vito Corleone, Don of the Corleone family, as he passes the mantel to his unwilling son, Michael.',
-                    ImageURL: imgPath + 'thegodfather.png'
+                    ImageURL: imgPath + '1//200/300'
                 },
                 {
                     _id: 2,
                     Title: 'Inception',
                     Description: 'A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O., but his tragic past may doom the project and his team to disaster.',
-                    ImageURL: imgPath + 'thegodfather.png'
+                    ImageURL: imgPath + '2//200/300'
                 },
                 {
                     _id: 3,
                     Title: 'The Matrix',
                     Description: 'When a beautiful stranger leads computer hacker Neo to a forbidding underworld, he discovers the shocking truth--the life he knows is the elaborate deception of an evil cyber-intelligence.',
-                    ImageURL: imgPath + 'thematrix.png'
+                    ImageURL: imgPath + '3//200/300'
                 }
             ],
             selectedMovie: null
